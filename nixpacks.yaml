@@ -1,0 +1,11 @@
+name: lose-your-head
+version: 1.0.0
+language: python
+setup:
+  - python38
+install:
+  - pip install -r requirements.txt
+start:
+  - cd path/to/your/app
+  - . /opt/venv/bin/activate
+  - python app.py
